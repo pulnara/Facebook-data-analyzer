@@ -8,8 +8,6 @@ class ReactionsCounter(val path : String) {
   val stream = new FileInputStream(path)
   var a = ""
 
-  case class Student (name: String, age: Int)
-
   def print(): Unit = {
     val json_input : JsValue = try { Json.parse(stream) } finally { stream.close() }
 
