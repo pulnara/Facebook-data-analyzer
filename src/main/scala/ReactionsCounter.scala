@@ -1,14 +1,18 @@
 import java.io.FileInputStream
+import java.security.InvalidParameterException
+
 import play.api.libs.json._
 
 
 class ReactionsCounter(val path : String) {
   val stream = new FileInputStream(path)
+  var a = ""
+
+  case class Student (name: String, age: Int)
+
   def print(): Unit = {
     val json_input : JsValue = try { Json.parse(stream) } finally { stream.close() }
-//    println(json_input.toString())
-//    val haha = (json_input \ "reactions")(0)
-//    println(haha)
+
     var i = 0
     var like_ctr = 0
     var super_ctr = 0
@@ -16,16 +20,16 @@ class ReactionsCounter(val path : String) {
     var sad_ctr = 0
     var angry_ctr = 0
     var wow_ctr = 0
-    while (i < 100) {
+    while (i < (json_input \ "reactions").asOpt[JsArray].map(_.value.size).get) {
       val tmp = ((json_input \ "reactions")(i) \ "data")(0) \ "reaction" \ "reaction"
-//      println(tmp)
       tmp.as[String] match {
         case "LIKE" => like_ctr += 1
         case "LOVE" => super_ctr += 1
         case "HAHA" => haha_ctr += 1
-        case "SAD" => sad_ctr += 1
-        case "ANGRY" => angry_ctr += 1
+        case "SORRY" => sad_ctr += 1
+        case "ANGER" => angry_ctr += 1
         case "WOW" => wow_ctr += 1
+        case _ =>
       }
       i += 1
     }
