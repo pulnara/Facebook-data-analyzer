@@ -4,7 +4,7 @@
 		module="facebook-data-analyzer$sources"
 		revision="0.1"
 		status="integration"
-		publication="20180609223620"
+		publication="20180609231647"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
