@@ -4,7 +4,6 @@
     <list default="true" id="bd9614f8-542f-44b6-80c6-e0314bf7d5d6" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/ReactionsCounter.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ReactionsCounter.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/ReactionsCounter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/ReactionsCounter.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -51,7 +50,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/scala/ReactionsCounter.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="420">
-              <caret line="31" column="72" selection-start-line="31" selection-start-column="72" selection-end-line="31" selection-end-column="72" />
+              <caret line="28" column="80" selection-start-line="28" selection-start-column="80" selection-end-line="28" selection-end-column="80" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -260,7 +259,7 @@
       <option name="presentableId" value="Default" />
       <updated>1528572244825</updated>
       <workItem from="1528572246648" duration="2696000" />
-      <workItem from="1528575481418" duration="8546000" />
+      <workItem from="1528575481418" duration="8806000" />
     </task>
     <task id="LOCAL-00001" summary="Hope this %#*&amp; is finally working (wanted to use billions&amp;billions of swear words)">
       <created>1528576751414</created>
@@ -276,11 +275,25 @@
       <option name="project" value="LOCAL" />
       <updated>1528581201124</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add reactions counting">
+      <created>1528584788069</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1528584788069</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Remove unnecessary code">
+      <created>1528584910191</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1528584910191</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11242000" />
+    <option name="totallyTimeSpent" value="11502000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-4" width="1922" height="1085" extended-state="6" />
@@ -328,7 +341,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Hope this %#*&amp; is finally working (wanted to use billions&amp;billions of swear words)" />
     <MESSAGE value="Add basic playing with Play :-)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add basic playing with Play :-)" />
+    <MESSAGE value="Add reactions counting" />
+    <MESSAGE value="Remove unnecessary code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove unnecessary code" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/build.sbt">
@@ -382,7 +397,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/scala/ReactionsCounter.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
-          <caret line="31" column="72" selection-start-line="31" selection-start-column="72" selection-end-line="31" selection-end-column="72" />
+          <caret line="28" column="80" selection-start-line="28" selection-start-column="80" selection-end-line="28" selection-end-column="80" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>

@@ -6,7 +6,6 @@ import play.api.libs.json._
 
 class ReactionsCounter(val path : String) {
   val stream = new FileInputStream(path)
-  var a = ""
 
   def print(): Unit = {
     val json_input : JsValue = try { Json.parse(stream) } finally { stream.close() }
@@ -27,7 +26,7 @@ class ReactionsCounter(val path : String) {
         case "SORRY" => sad_ctr += 1
         case "ANGER" => angry_ctr += 1
         case "WOW" => wow_ctr += 1
-        case _ =>
+        case _ => throw new InvalidParameterException("Invalid type of reaction.")
       }
       i += 1
     }
