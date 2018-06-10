@@ -7,6 +7,12 @@ object Application {
     val topNSelector = new TopNSelector(10, wordsInConversationParser)
     topNSelector.print()
     topNSelector.printLongerWords()
+
+    val wordsInConversationsParser = new WordsInConversationsParser("D:/WIEiT/Scala/facebook-dane/messages/")
+    wordsInConversationsParser.parse()
+    val topNSelector2 = new TopNSelector(10,  wordsInConversationsParser)
+    topNSelector2.print()
+    topNSelector2.printLongerWords()
     ///home/aga/Pobrane/FBData/likes_and_reactions/posts_and_comments.json
 
   }
