@@ -2,9 +2,7 @@ import java.io.FileInputStream
 
 import play.api.libs.json._
 
-import scala.collection.immutable.ListMap
-
-class WordsInConversationParser(val path : String) {
+class WordsInConversationParser(val path : String) extends CommentParser{
   val stream = new FileInputStream(path)
 
   def parse():Map[String, Int] = {
@@ -16,7 +14,7 @@ class WordsInConversationParser(val path : String) {
     while (i < (json_input \ "messages").asOpt[JsArray].map(_.value.size).get) {
       val comment = ((json_input \ "messages")(i) \ "content").validate[String]
       comment match{
-        case s: JsSuccess[String] => println(s.get)
+        case s: JsSuccess[String] =>
                                      map = s.get
                                             .toLowerCase
                                             .split("\\W+")
@@ -29,8 +27,6 @@ class WordsInConversationParser(val path : String) {
       i=i+1
     }
 
-    map = ListMap(map.toSeq.sortWith(_._2 > _._2):_*)
-    println(map)
     return map
   }
 }
