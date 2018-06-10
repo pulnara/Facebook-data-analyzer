@@ -2,84 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd9614f8-542f-44b6-80c6-e0314bf7d5d6" name="Default" comment="Added (sorted)CountWordsInConversation">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/WordsInConversationParser.scala" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/facebook-data-analyzer-build.iml" afterPath="$PROJECT_DIR$/.idea/modules/facebook-data-analyzer-build.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$446cb5f17fed9f929ce1$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$446cb5f17fed9f929ce1.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$446cb5f17fed9f929ce1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$4d87bb1fd61896536ee6$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$4d87bb1fd61896536ee6.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$4d87bb1fd61896536ee6.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$957522c477df19aefccd$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$957522c477df19aefccd.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$957522c477df19aefccd.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$aed5bc363a7df2628c93$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$aed5bc363a7df2628c93.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$aed5bc363a7df2628c93.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$fbb539a4e97b3af0b092$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$fbb539a4e97b3af0b092.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$fbb539a4e97b3af0b092.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/facebook-data-analyzer-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/facebook-data-analyzer-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/facebook-data-analyzer-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/facebook-data-analyzer-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-facebook-data-analyzer-build-compile-internal.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-facebook-data-analyzer-build-compile-internal.xml" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-facebook-data-analyzer-build-compile.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-facebook-data-analyzer-build-compile.xml" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-facebook-data-analyzer-build-optional.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-facebook-data-analyzer-build-optional.xml" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-facebook-data-analyzer-build-plugin.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-facebook-data-analyzer-build-plugin.xml" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-facebook-data-analyzer-build-pom.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-facebook-data-analyzer-build-pom.xml" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-facebook-data-analyzer-build-provided.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-facebook-data-analyzer-build-provided.xml" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-facebook-data-analyzer-build-runtime-internal.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-facebook-data-analyzer-build-runtime-internal.xml" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-facebook-data-analyzer-build-runtime.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-facebook-data-analyzer-build-runtime.xml" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-facebook-data-analyzer-build-scala-tool.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-facebook-data-analyzer-build-scala-tool.xml" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-facebook-data-analyzer-build-test-internal.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-facebook-data-analyzer-build-test-internal.xml" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-facebook-data-analyzer-build-test.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-facebook-data-analyzer-build-test.xml" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/exportedProducts/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/exportedProducts/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/exportedProducts/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/exportedProducts/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/Application.scala" afterPath="$PROJECT_DIR$/src/main/scala/Application.scala" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/ReactionsCounter.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/ReactionsCounter.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/facebook-data-analyzer_2.11/0.1/resolved.xml.properties" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/facebook-data-analyzer_2.11/0.1/resolved.xml.properties" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/facebook-data-analyzer_2.11/0.1/resolved.xml.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/facebook-data-analyzer_2.11/0.1/resolved.xml.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-facebook-data-analyzer_2.11-compile-internal.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-facebook-data-analyzer_2.11-compile-internal.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-facebook-data-analyzer_2.11-compile.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-facebook-data-analyzer_2.11-compile.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-facebook-data-analyzer_2.11-optional.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-facebook-data-analyzer_2.11-optional.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-facebook-data-analyzer_2.11-plugin.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-facebook-data-analyzer_2.11-plugin.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-facebook-data-analyzer_2.11-pom.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-facebook-data-analyzer_2.11-pom.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-facebook-data-analyzer_2.11-provided.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-facebook-data-analyzer_2.11-provided.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-facebook-data-analyzer_2.11-runtime-internal.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-facebook-data-analyzer_2.11-runtime-internal.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-facebook-data-analyzer_2.11-runtime.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-facebook-data-analyzer_2.11-runtime.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-facebook-data-analyzer_2.11-scala-tool.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-facebook-data-analyzer_2.11-scala-tool.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-facebook-data-analyzer_2.11-test-internal.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-facebook-data-analyzer_2.11-test-internal.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-facebook-data-analyzer_2.11-test.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-facebook-data-analyzer_2.11-test.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/facebook-data-analyzer$sources/0.1/resolved.xml.properties" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/facebook-data-analyzer$sources/0.1/resolved.xml.properties" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/facebook-data-analyzer$sources/0.1/resolved.xml.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/facebook-data-analyzer$sources/0.1/resolved.xml.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-facebook-data-analyzer$sources-compile-internal.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-facebook-data-analyzer$sources-compile-internal.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-facebook-data-analyzer$sources-compile.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-facebook-data-analyzer$sources-compile.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-facebook-data-analyzer$sources-optional.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-facebook-data-analyzer$sources-optional.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-facebook-data-analyzer$sources-plugin.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-facebook-data-analyzer$sources-plugin.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-facebook-data-analyzer$sources-pom.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-facebook-data-analyzer$sources-pom.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-facebook-data-analyzer$sources-provided.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-facebook-data-analyzer$sources-provided.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-facebook-data-analyzer$sources-runtime-internal.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-facebook-data-analyzer$sources-runtime-internal.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-facebook-data-analyzer$sources-runtime.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-facebook-data-analyzer$sources-runtime.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-facebook-data-analyzer$sources-scala-tool.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-facebook-data-analyzer$sources-scala-tool.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-facebook-data-analyzer$sources-test-internal.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-facebook-data-analyzer$sources-test-internal.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-facebook-data-analyzer$sources-test.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-facebook-data-analyzer$sources-test.xml" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/output" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -129,8 +52,8 @@
       <file leaf-file-name="WordsInConversationParser.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/WordsInConversationParser.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state relative-caret-position="272">
+              <caret line="16" column="58" lean-forward="true" selection-start-line="16" selection-start-column="58" selection-end-line="16" selection-end-column="58" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -373,7 +296,7 @@
       <updated>1528572244825</updated>
       <workItem from="1528572246648" duration="2696000" />
       <workItem from="1528575481418" duration="8806000" />
-      <workItem from="1528623227136" duration="6998000" />
+      <workItem from="1528623227136" duration="7090000" />
     </task>
     <task id="LOCAL-00001" summary="Hope this %#*&amp; is finally working (wanted to use billions&amp;billions of swear words)">
       <created>1528576751414</created>
@@ -403,26 +326,32 @@
       <option name="project" value="LOCAL" />
       <updated>1528584910191</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added (sorted)CountWordsInConversation">
+      <created>1528631608042</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1528631608042</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18739000" />
+    <option name="totallyTimeSpent" value="18831000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="sbt" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -500,14 +429,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.sbt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="77" lean-forward="true" selection-start-line="6" selection-start-column="77" selection-end-line="6" selection-end-column="77" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/Application.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -524,10 +445,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="77" lean-forward="true" selection-start-line="6" selection-start-column="77" selection-end-line="6" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/WordsInConversationParser.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state relative-caret-position="272">
+          <caret line="16" column="58" lean-forward="true" selection-start-line="16" selection-start-column="58" selection-end-line="16" selection-end-column="58" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>
