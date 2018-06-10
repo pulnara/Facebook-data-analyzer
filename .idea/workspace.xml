@@ -1,9 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bd9614f8-542f-44b6-80c6-e0314bf7d5d6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ReactionsCounter.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ReactionsCounter.scala" afterDir="false" />
+    <list default="true" id="bd9614f8-542f-44b6-80c6-e0314bf7d5d6" name="Default" comment="Added (sorted)CountWordsInConversation">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/WordsInConversationParser.scala" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/facebook-data-analyzer-build.iml" afterPath="$PROJECT_DIR$/.idea/modules/facebook-data-analyzer-build.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$446cb5f17fed9f929ce1$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$446cb5f17fed9f929ce1.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$446cb5f17fed9f929ce1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$4d87bb1fd61896536ee6$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$4d87bb1fd61896536ee6.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$4d87bb1fd61896536ee6.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$957522c477df19aefccd$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$957522c477df19aefccd.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$957522c477df19aefccd.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$aed5bc363a7df2628c93$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$aed5bc363a7df2628c93.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$aed5bc363a7df2628c93.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$fbb539a4e97b3af0b092$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$fbb539a4e97b3af0b092.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$fbb539a4e97b3af0b092.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/facebook-data-analyzer-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/facebook-data-analyzer-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/facebook-data-analyzer-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/facebook-data-analyzer-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-facebook-data-analyzer-build-compile-internal.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-facebook-data-analyzer-build-compile-internal.xml" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-facebook-data-analyzer-build-compile.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-facebook-data-analyzer-build-compile.xml" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-facebook-data-analyzer-build-optional.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-facebook-data-analyzer-build-optional.xml" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-facebook-data-analyzer-build-plugin.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-facebook-data-analyzer-build-plugin.xml" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-facebook-data-analyzer-build-pom.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-facebook-data-analyzer-build-pom.xml" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-facebook-data-analyzer-build-provided.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-facebook-data-analyzer-build-provided.xml" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-facebook-data-analyzer-build-runtime-internal.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-facebook-data-analyzer-build-runtime-internal.xml" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-facebook-data-analyzer-build-runtime.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-facebook-data-analyzer-build-runtime.xml" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-facebook-data-analyzer-build-scala-tool.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-facebook-data-analyzer-build-scala-tool.xml" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-facebook-data-analyzer-build-test-internal.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-facebook-data-analyzer-build-test-internal.xml" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-facebook-data-analyzer-build-test.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-facebook-data-analyzer-build-test.xml" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/exportedProducts/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/exportedProducts/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/exportedProducts/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/exportedProducts/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/Application.scala" afterPath="$PROJECT_DIR$/src/main/scala/Application.scala" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/ReactionsCounter.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/ReactionsCounter.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/facebook-data-analyzer_2.11/0.1/resolved.xml.properties" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/facebook-data-analyzer_2.11/0.1/resolved.xml.properties" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/facebook-data-analyzer_2.11/0.1/resolved.xml.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/facebook-data-analyzer_2.11/0.1/resolved.xml.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-facebook-data-analyzer_2.11-compile-internal.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-facebook-data-analyzer_2.11-compile-internal.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-facebook-data-analyzer_2.11-compile.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-facebook-data-analyzer_2.11-compile.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-facebook-data-analyzer_2.11-optional.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-facebook-data-analyzer_2.11-optional.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-facebook-data-analyzer_2.11-plugin.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-facebook-data-analyzer_2.11-plugin.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-facebook-data-analyzer_2.11-pom.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-facebook-data-analyzer_2.11-pom.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-facebook-data-analyzer_2.11-provided.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-facebook-data-analyzer_2.11-provided.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-facebook-data-analyzer_2.11-runtime-internal.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-facebook-data-analyzer_2.11-runtime-internal.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-facebook-data-analyzer_2.11-runtime.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-facebook-data-analyzer_2.11-runtime.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-facebook-data-analyzer_2.11-scala-tool.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-facebook-data-analyzer_2.11-scala-tool.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-facebook-data-analyzer_2.11-test-internal.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-facebook-data-analyzer_2.11-test-internal.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-facebook-data-analyzer_2.11-test.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-facebook-data-analyzer_2.11-test.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/facebook-data-analyzer$sources/0.1/resolved.xml.properties" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/facebook-data-analyzer$sources/0.1/resolved.xml.properties" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/facebook-data-analyzer$sources/0.1/resolved.xml.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/facebook-data-analyzer$sources/0.1/resolved.xml.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-facebook-data-analyzer$sources-compile-internal.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-facebook-data-analyzer$sources-compile-internal.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-facebook-data-analyzer$sources-compile.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-facebook-data-analyzer$sources-compile.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-facebook-data-analyzer$sources-optional.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-facebook-data-analyzer$sources-optional.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-facebook-data-analyzer$sources-plugin.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-facebook-data-analyzer$sources-plugin.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-facebook-data-analyzer$sources-pom.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-facebook-data-analyzer$sources-pom.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-facebook-data-analyzer$sources-provided.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-facebook-data-analyzer$sources-provided.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-facebook-data-analyzer$sources-runtime-internal.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-facebook-data-analyzer$sources-runtime-internal.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-facebook-data-analyzer$sources-runtime.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-facebook-data-analyzer$sources-runtime.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-facebook-data-analyzer$sources-scala-tool.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-facebook-data-analyzer$sources-scala-tool.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-facebook-data-analyzer$sources-test-internal.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-facebook-data-analyzer$sources-test-internal.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-facebook-data-analyzer$sources-test.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-facebook-data-analyzer$sources-test.xml" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/output" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,36 +97,40 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="SBT">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Facebook-data-analyzer" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="build.sbt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.sbt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".history" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/target/.history">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="Application.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/Application.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReactionsCounter.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ReactionsCounter.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/ReactionsCounter.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="80" selection-start-line="28" selection-start-column="80" selection-end-line="28" selection-end-column="80" />
+            <state relative-caret-position="187">
+              <caret line="20" column="56" lean-forward="false" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WordsInConversationParser.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/WordsInConversationParser.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -63,12 +143,19 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/build.sbt" />
+        <option value="$PROJECT_DIR$/src/main/scala/WordsInConversationCounter.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/Application.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/ReactionsCounter.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/WordsInConversationParser.scala" />
       </list>
     </option>
   </component>
@@ -85,27 +172,28 @@
     <option name="height" value="1085" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="Facebook-data-analyzer" type="b2602c69:ProjectViewProjectNode" />
               <item name="Facebook-data-analyzer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Facebook-data-analyzer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Facebook-data-analyzer" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Facebook-data-analyzer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Facebook-data-analyzer" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Facebook-data-analyzer" type="b2602c69:ProjectViewProjectNode" />
@@ -125,18 +213,12 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Facebook-data-analyzer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Facebook-data-analyzer" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -164,15 +246,36 @@
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Application" />
-      <module name="facebook-data-analyzer" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="facebook-data-analyzer" />
+      <envs />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" />
@@ -182,13 +285,17 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
+      <envs />
       <patterns />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
@@ -201,18 +308,21 @@
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
       <option name="USE_DEFAULT_REPORTERS" value="false" />
       <option name="PROPERTIES_FILE" />
+      <envs />
       <properties />
       <listeners />
     </configuration>
     <recent_temporary>
-      <list>
-        <item itemvalue="Application.Main" />
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -248,6 +358,9 @@
       </map>
     </option>
   </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -260,6 +373,7 @@
       <updated>1528572244825</updated>
       <workItem from="1528572246648" duration="2696000" />
       <workItem from="1528575481418" duration="8806000" />
+      <workItem from="1528623227136" duration="6998000" />
     </task>
     <task id="LOCAL-00001" summary="Hope this %#*&amp; is finally working (wanted to use billions&amp;billions of swear words)">
       <created>1528576751414</created>
@@ -293,43 +407,42 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11502000" />
+    <option name="totallyTimeSpent" value="18739000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="-4" width="1922" height="1085" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" order="6" />
-      <window_info anchor="right" id="sbt" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="1" />
-      <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info id="Designer" order="0" />
-      <window_info anchor="bottom" id="Build" order="0" weight="0.33092037" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info id="Structure" order="5" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="13" />
-      <window_info anchor="bottom" id="Messages" order="3" weight="0.32885212" />
-      <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info id="Image Layers" order="1" />
-      <window_info anchor="right" id="Capture Analysis" order="2" />
-      <window_info anchor="bottom" id="Version Control" order="5" />
-      <window_info active="true" anchor="bottom" id="Run" order="8" visible="true" weight="0.32988626" />
-      <window_info anchor="bottom" id="Terminal" order="2" />
-      <window_info content_ui="combo" id="Project" order="4" visible="true" weight="0.24270834" />
-      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="1" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="7" />
-      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="6" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="sbt" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2553305" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="sbt-shell-toolwindow" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -339,65 +452,82 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Hope this %#*&amp; is finally working (wanted to use billions&amp;billions of swear words)" />
-    <MESSAGE value="Add basic playing with Play :-)" />
-    <MESSAGE value="Add reactions counting" />
-    <MESSAGE value="Remove unnecessary code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove unnecessary code" />
+    <MESSAGE value="Added (sorted)CountWordsInConversation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added (sorted)CountWordsInConversation" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/build.sbt">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ReactionsCounter.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/ReactionsCounter.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="51">
+          <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/Application.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="0">
+          <caret line="0" column="20" lean-forward="true" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/.history">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/build.sbt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.play/play-json_2.11/srcs/play-json_2.11-2.4.2-sources.jar!/play/api/libs/json/JsValue.scala">
+    <entry file="file://$PROJECT_DIR$/src/Application.scala" />
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/srcs/jackson-databind-2.5.4-sources.jar!/com/fasterxml/jackson/databind/ObjectMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="75" selection-start-line="75" selection-end-line="75" />
+        <state relative-caret-position="189">
+          <caret line="3535" column="0" lean-forward="false" selection-start-line="3535" selection-start-column="0" selection-end-line="3535" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="77" lean-forward="true" selection-start-line="6" selection-start-column="77" selection-end-line="6" selection-end-column="77" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/Application.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+        <state relative-caret-position="102">
+          <caret line="6" column="37" lean-forward="false" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/ReactionsCounter.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="80" selection-start-line="28" selection-start-column="80" selection-end-line="28" selection-end-column="80" />
+        <state relative-caret-position="187">
+          <caret line="20" column="56" lean-forward="false" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/WordsInConversationParser.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>
