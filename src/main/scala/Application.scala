@@ -14,10 +14,12 @@ object Application {
       if (file.exists() && file.isDirectory) {
         val reactionsCounter = new ReactionsCounter(file + "/likes_and_reactions/posts_and_comments.json")
         reactionsCounter.print()
-        val wordsInConversationParser = new WordsInConversationParser(file + "/messages/agnieszkapulnar_2f35bd08c5/message.json")
+        val wordsInConversationParser = new WordsInConversationParser(file + "/messages/AgnieszkaPulnar_ca96c8a69a/message.json")
         val topNSelector = new TopNSelector(10, wordsInConversationParser)
         topNSelector.print()
         topNSelector.printLongerWords()
+        val messagesInConverstionCounter = new MessagesInConverstionCounter(file + "/messages/AgnieszkaPulnar_ca96c8a69a/message.json")
+        messagesInConverstionCounter.print()
       }
       else {
         throw new InvalidParameterException("Invalid path given.")
@@ -27,8 +29,11 @@ object Application {
     }
 
     ///home/aga/Pobrane/FBData/likes_and_reactions/posts_and_comments.json
+    //"/messages/agnieszkapulnar_2f35bd08c5/message.json"
+
     //"D:/WIEiT/Scala/facebook-dane/likes_and_reactions/posts_and_comments.json"
-    // "D:/WIEiT/Scala/facebook-dane/messages/AgnieszkaPulnar_ca96c8a69a/message.json"
+    //"D:/WIEiT/Scala/facebook-dane/messages/AgnieszkaPulnar_ca96c8a69a/message.json"
+
 
   }
 }
