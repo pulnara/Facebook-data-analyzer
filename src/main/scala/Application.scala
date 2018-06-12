@@ -16,10 +16,16 @@ object Application {
         reactionsCounter.print()
         val wordsInConversationParser = new WordsInConversationParser(file + "/messages/AgnieszkaPulnar_ca96c8a69a/message.json")
         val topNSelector = new TopNSelector(10, wordsInConversationParser)
+        println("Top words in conversation:")
         topNSelector.print()
         topNSelector.printLongerWords()
-        val messagesInConverstionCounter = new MessagesInConverstionCounter(file + "/messages/AgnieszkaPulnar_ca96c8a69a/message.json")
-        messagesInConverstionCounter.print()
+        val messagesInConversationCounter = new MessagesInConversationCounter(file + "/messages/AgnieszkaPulnar_ca96c8a69a/message.json")
+        messagesInConversationCounter.print()
+        val messagesInConversationsParser = new MessagesInConversationsParser(file + "/messages")
+        val topNSelector2 = new TopNSelector(10, messagesInConversationsParser)
+        println("Top messages in conversations:")
+        topNSelector2.print()
+
       }
       else {
         throw new InvalidParameterException("Invalid path given.")

@@ -36,5 +36,6 @@ class ReactionsCounter(val path : String) {
     println("Number of sad: " + sad_ctr)
     println("Number of angry: " + angry_ctr)
     println("Number of wow: " + wow_ctr)
+    println("")
   }
 }

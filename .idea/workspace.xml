@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bd9614f8-542f-44b6-80c6-e0314bf7d5d6" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/MessagesInConverstionCounter.scala" />
+    <list default="true" id="bd9614f8-542f-44b6-80c6-e0314bf7d5d6" name="Default" comment="Added top conversations">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/MessagesInConversationsParser.scala" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/Application.scala" afterPath="$PROJECT_DIR$/src/main/scala/Application.scala" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/MessagesInConverstionCounter.scala" afterPath="$PROJECT_DIR$/src/main/scala/MessagesInConversationCounter.scala" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ReactionsCounter.scala" afterPath="$PROJECT_DIR$/src/main/scala/ReactionsCounter.scala" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/TopNSelector.scala" afterPath="$PROJECT_DIR$/src/main/scala/TopNSelector.scala" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Application$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Application$.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/TopNSelector$$anonfun$print$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/TopNSelector$$anonfun$print$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/TopNSelector$$anonfun$printLongerWords$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/TopNSelector$$anonfun$printLongerWords$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/TopNSelector$$anonfun$printLongerWords$2.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/TopNSelector$$anonfun$printLongerWords$2.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/TopNSelector.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/TopNSelector.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -42,11 +49,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MessagesInConverstionCounter.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/MessagesInConverstionCounter.scala">
+      <file leaf-file-name="ReactionsCounter.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/ReactionsCounter.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="331">
+              <caret line="29" column="7" lean-forward="true" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MessagesInConversationCounter.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/MessagesInConversationCounter.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="14" column="49" lean-forward="false" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+              <caret line="14" column="73" lean-forward="true" selection-start-line="14" selection-start-column="73" selection-end-line="14" selection-end-column="73" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -54,11 +71,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WordsInConversationParser.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/WordsInConversationParser.scala">
+      <file leaf-file-name="MessagesInConversationsParser.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/MessagesInConversationsParser.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+            <state relative-caret-position="289">
+              <caret line="17" column="4" lean-forward="false" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -67,8 +84,28 @@
       <file leaf-file-name="Application.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/Application.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="16" column="114" lean-forward="false" selection-start-line="16" selection-start-column="114" selection-end-line="16" selection-end-column="114" />
+            <state relative-caret-position="425">
+              <caret line="26" column="29" lean-forward="false" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RecursiveFileList.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/RecursiveFileList.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WordsInConversationsParser.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/WordsInConversationsParser.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="51" lean-forward="true" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -77,8 +114,8 @@
       <file leaf-file-name="TopNSelector.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/TopNSelector.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="3" lean-forward="false" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+            <state relative-caret-position="0">
+              <caret line="0" column="41" lean-forward="true" selection-start-line="0" selection-start-column="41" selection-end-line="0" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -106,12 +143,14 @@
       <list>
         <option value="$PROJECT_DIR$/build.sbt" />
         <option value="$PROJECT_DIR$/src/main/scala/WordsInConversationCounter.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/ReactionsCounter.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/CommentParser.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/WordsInConversationParser.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/RecursiveFileList.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/WordsInConversationsParser.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/MessagesInConverstionCounter.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ReactionsCounter.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/RecursiveFileList.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/MessagesInConversationsParser.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/MessagesInConversationCounter.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/TopNSelector.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/Application.scala" />
       </list>
@@ -553,7 +592,7 @@
       <workItem from="1528572246648" duration="2696000" />
       <workItem from="1528575481418" duration="8806000" />
       <workItem from="1528623227136" duration="18692000" />
-      <workItem from="1528801724816" duration="1384000" />
+      <workItem from="1528801724816" duration="7605000" />
     </task>
     <task id="LOCAL-00001" summary="Hope this %#*&amp; is finally working (wanted to use billions&amp;billions of swear words)">
       <created>1528576751414</created>
@@ -639,11 +678,18 @@
       <option name="project" value="LOCAL" />
       <updated>1528643517737</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Added count messages in converstion">
+      <created>1528803164664</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1528803164664</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26892000" />
+    <option name="totallyTimeSpent" value="33113000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -701,7 +747,9 @@
     <MESSAGE value="Added (sorted)CountWordsInConversation" />
     <MESSAGE value="Added printNTopWords" />
     <MESSAGE value="Added count top words for all messages" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added count top words for all messages" />
+    <MESSAGE value="Added count messages in converstion" />
+    <MESSAGE value="Added top conversations" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added top conversations" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -805,46 +853,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/Commen.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/CommentParser.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="20" lean-forward="true" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/RecursiveFileList.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/WordsInConversationsParser.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="14" lean-forward="false" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ReactionsCounter.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="6" column="41" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/TopNSelector.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="3" lean-forward="false" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/WordsInConversationParser.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -853,20 +861,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/MessagesInConverstionCounter.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/CommentParser.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="20" lean-forward="true" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/MessagesInConversationsParser.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="4" lean-forward="false" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/MessagesInConversationCounter.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="14" column="49" lean-forward="false" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+          <caret line="14" column="73" lean-forward="true" selection-start-line="14" selection-start-column="73" selection-end-line="14" selection-end-column="73" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ReactionsCounter.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="29" column="7" lean-forward="true" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/RecursiveFileList.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/WordsInConversationsParser.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="51" lean-forward="true" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/TopNSelector.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="41" lean-forward="true" selection-start-line="0" selection-start-column="41" selection-end-line="0" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/Application.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="16" column="114" lean-forward="false" selection-start-line="16" selection-start-column="114" selection-end-line="16" selection-end-column="114" />
+        <state relative-caret-position="425">
+          <caret line="26" column="29" lean-forward="false" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
           <folding />
         </state>
       </provider>
