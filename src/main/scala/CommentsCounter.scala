@@ -27,9 +27,9 @@ class CommentsCounter(val path : String) {
     }
     val list = ListMap(groups.toSeq.sortWith(_._2 > _._2):_*).toList
 
-    println("Including " + commentsInGrps + " comments in groups")
+    println("Including " + commentsInGrps + " comments in groups.")
     println()
-    println("Most active on groups:")
+    println("Most active in groups:")
     for (i <- list.indices) println(list(i)._1 + ": " + list(i)._2)
   }
 
