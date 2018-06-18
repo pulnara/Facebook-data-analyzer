@@ -1,9 +1,8 @@
 import java.io.FileInputStream
-
 import play.api.libs.json.{JsArray, JsValue, Json}
 
 class MessagesInConversationCounter(val path : String) {
-  val stream = new FileInputStream(path)
+  private val stream = new FileInputStream(path)
 
   def count(): Int ={
     val json_input: JsValue = try {

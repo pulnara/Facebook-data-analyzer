@@ -1,11 +1,8 @@
 import java.io.FileInputStream
-import java.security.InvalidParameterException
-
 import play.api.libs.json._
 
-
 class ReactionsCounter(val path : String) {
-  val stream = new FileInputStream(path)
+  private val stream = new FileInputStream(path)
 
   def print(): Unit = {
     val json_input : JsValue = try { Json.parse(stream) } finally { stream.close() }
@@ -28,18 +25,18 @@ class ReactionsCounter(val path : String) {
         case "SORRY" => sad_ctr += 1
         case "ANGER" => angry_ctr += 1
         case "WOW" => wow_ctr += 1
-        case _ => throw new InvalidParameterException("Invalid type of reaction.")
+        case _ => {}
       }
       i += 1
     }
 
     println("Total reactions number: " + size)
-    println("Number of likes: " + like_ctr)
-    println("Number of loves: " + super_ctr)
-    println("Number of haha: " + haha_ctr)
-    println("Number of sad: " + sad_ctr)
-    println("Number of angry: " + angry_ctr)
-    println("Number of wow: " + wow_ctr)
+    println("Likes: " + like_ctr)
+    println("Loves: " + super_ctr)
+    println("Haha: " + haha_ctr)
+    println("Sad: " + sad_ctr)
+    println("Angry: " + angry_ctr)
+    println("Wow: " + wow_ctr)
     println("")
   }
 }

@@ -27,10 +27,10 @@ object Application {
         println(s"${MAGENTA}Reactions:$WHITE")
         reactionsCounter.print()
 
-//        println("Type name of person:")
-//        val who = scala.io.StdIn.readLine().replaceAll(" ", "")
-        val who = "AgnieszkaPulnar"
-        println(s"${GREEN}For " + who + s":$WHITE")
+        println("Type name of person:")
+        val who = scala.io.StdIn.readLine().replaceAll(" ", "")
+//        val who = "AgnieszkaPulnar"
+        println(s"\n${GREEN}For conversation with " + who + s":$WHITE")
         val messagesPath = getPersonsMessagesPath(path, who)
         val wordsInConversationParser = new WordsInConversationParser(messagesPath)
         val topNSelector = new TopNSelector(10, wordsInConversationParser)
@@ -40,23 +40,27 @@ object Application {
         val messagesInConversationCounter = new MessagesInConversationCounter(messagesPath)
         messagesInConversationCounter.print()
 
+        println(s"${CYAN}Messages statistics:$WHITE")
+        val timesOfMessagesAnalyzer = new TimesOfMessagesAnalyzer(file + "/messages")
+        timesOfMessagesAnalyzer.parse()
+
         val messagesInConversationsParser = new MessagesInConversationsParser(file + "/messages")
         val topNSelector2 = new TopNSelector(10, messagesInConversationsParser)
-        println(s"${CYAN}Top messages in conversations:$WHITE")
+        println(s"${YELLOW}Top words in conversations:$WHITE")
         topNSelector2.print()
 
         val commentsCounter = new CommentsCounter(file + "/comments/comments.json")
-        println(s"${YELLOW}Comments analysis:$WHITE")
+        println(s"${MAGENTA}Comments analysis:$WHITE")
         commentsCounter.print()
 
-//        val friendsNumberAnalyzer = new FriendsNumberAnalyzer(file + "/friends/friends.json")
-//        println(s"\n${MAGENTA}Friendship making analysis:$WHITE")
-//        friendsNumberAnalyzer.print()
+        val friendsNumberAnalyzer = new FriendsNumberAnalyzer(file + "/friends/friends.json")
+        println(s"\n${GREEN}Friendship making analysis:$WHITE")
+        friendsNumberAnalyzer.print()
 
         val locationParser = new LocationsParser(file + "/location_history/your_location_history.json")
         //print(locationParser.parse())
+        println(s"${CYAN}Locations analysis:$WHITE")
         locationParser.print()
-
       }
       else {
         throw new InvalidParameterException("Invalid path given.")

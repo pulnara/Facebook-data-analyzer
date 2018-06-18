@@ -3,7 +3,7 @@ import play.api.libs.json._
 import scala.collection.immutable.ListMap
 
 class CommentsCounter(val path : String) {
-  val stream = new FileInputStream(path)
+  private val stream = new FileInputStream(path)
 
   def printGroups(commentsNumber : Int, json_input : JsValue) : Unit = {
     var commentsInGrps  = 0
@@ -30,7 +30,7 @@ class CommentsCounter(val path : String) {
     println("Including " + commentsInGrps + " comments in groups.")
     println()
     println("Most active in groups:")
-    for (i <- list.indices) println(list(i)._1 + ": " + list(i)._2)
+    for (i <- 0 to Math.min(list.size, 10)) println(list(i)._1 + ": " + list(i)._2)
   }
 
   def print() : Unit = {

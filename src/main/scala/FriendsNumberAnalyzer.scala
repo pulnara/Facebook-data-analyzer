@@ -3,9 +3,10 @@ import java.text.SimpleDateFormat
 import org.sameersingh.scalaplot.Implicits._
 import play.api.libs.json.{JsArray, JsValue, Json}
 import java.util.Calendar
+import org.sameersingh.scalaplot.XYPlotStyle
 
 class FriendsNumberAnalyzer(val path : String) {
-  val stream = new FileInputStream(path)
+  private val stream = new FileInputStream(path)
 
   def getDate(timestamp: Long) : Double = {
     val ts = timestamp * 1000L
@@ -27,9 +28,8 @@ class FriendsNumberAnalyzer(val path : String) {
     }
     val now = Calendar.getInstance()
     val currentYear = now.get(Calendar.YEAR)
-    println("You've made " + years.getOrElse(currentYear, 0).toString.dropRight(2) + " friends so far this year.")
-
-    output(PNG("./", "FriendshipsMakingPlot"), xyChart(List(XY(years.toSeq)), x = Axis(label = "Years"), y = Axis(label = "New friends"), title = "Friendships making plot"))
-    println(output(ASCII, xyChart(List(XY(years.toSeq)), x = Axis(label = "Years"), y = Axis(label = "New friends"), title = "Friendships making plot")))
+    println("You've made " + years.getOrElse(currentYear, 0).get.toString.replaceAll(".0", "") + " friends so far this year.")
+    output(PNG("./", "FriendshipsMakingPlot"), xyChart(List(XY(years.toSeq, style = XYPlotStyle.Impulses)), x = Axis(label = "Years"), y = Axis(label = "New friends"), title = "Friendships making plot"))
+    println(output(ASCII, xyChart(List(XY(years.toSeq, style = XYPlotStyle.Impulses)), x = Axis(label = "Years"), y = Axis(label = "New friends"), title = "Friendships making plot")))
   }
 }
