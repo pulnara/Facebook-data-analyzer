@@ -17,7 +17,9 @@ class ReactionsCounter(val path : String) {
     var sad_ctr = 0
     var angry_ctr = 0
     var wow_ctr = 0
-    while (i < (json_input \ "reactions").asOpt[JsArray].map(_.value.size).get) {
+    val size = (json_input \ "reactions").asOpt[JsArray].map(_.value.size).get
+
+    while (i < size) {
       val tmp = ((json_input \ "reactions")(i) \ "data")(0) \ "reaction" \ "reaction"
       tmp.as[String] match {
         case "LIKE" => like_ctr += 1
@@ -30,6 +32,8 @@ class ReactionsCounter(val path : String) {
       }
       i += 1
     }
+
+    println("Total reactions number: " + size)
     println("Number of likes: " + like_ctr)
     println("Number of loves: " + super_ctr)
     println("Number of haha: " + haha_ctr)

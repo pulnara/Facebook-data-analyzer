@@ -9,7 +9,12 @@ class MessagesInConversationsParser (val path: String) extends CommentParser {
     for(file <- fileList){
       val messagesInConversationCounter = new MessagesInConversationCounter(file)
       val value = messagesInConversationCounter.count()
-      val array = file.split("\\\\")
+      val os = System.getProperty("os.name")
+      val array = if (os == "Linux") {
+        file.split("/")
+      } else {
+        file.split("\\\\")
+      }
       val name = array(array.length-2).split("_")
       val key = name(0)
       map += (key -> value)
