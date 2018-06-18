@@ -4,6 +4,8 @@ import java.text.SimpleDateFormat
 import org.sameersingh.scalaplot.Implicits._
 import play.api.libs.json._
 
+import scala.collection.immutable.ListMap
+
 class LocationsParser (val path: String){
   val stream = new FileInputStream(path)
 
@@ -45,6 +47,8 @@ class LocationsParser (val path: String){
 
   def print(): Unit ={
     var places : Map[Long, (Double, Double)] = this.parse()
+
+    places = ListMap(places.toSeq.sortBy(_._1):_*)
 
     output(PNG("./", "LocationsPlot"), xyChart(XY(places.values.toSeq), x = Axis(label = "X"), y = Axis(label = "Y"), title = "Locations plot"))
     println(output(ASCII, xyChart(XY(places.values.toSeq), x = Axis(label = "X"), y = Axis(label = "Y"), title = "Locations plot")))
