@@ -1,8 +1,8 @@
 import java.io.FileInputStream
 import java.text.SimpleDateFormat
 import org.sameersingh.scalaplot.Implicits._
-
 import play.api.libs.json.{JsArray, JsValue, Json}
+import java.util.Calendar
 
 class FriendsNumberAnalyzer(val path : String) {
   val stream = new FileInputStream(path)
@@ -25,7 +25,10 @@ class FriendsNumberAnalyzer(val path : String) {
         years += (year -> 1)
       }
     }
-    println()
+    val now = Calendar.getInstance()
+    val currentYear = now.get(Calendar.YEAR)
+    println("You've made " + years.getOrElse(currentYear, 0).toString.dropRight(2) + " friends so far this year.")
+
     output(PNG("./", "FriendshipsMakingPlot"), xyChart(List(XY(years.toSeq)), x = Axis(label = "Years"), y = Axis(label = "New friends"), title = "Friendships making plot"))
     println(output(ASCII, xyChart(List(XY(years.toSeq)), x = Axis(label = "Years"), y = Axis(label = "New friends"), title = "Friendships making plot")))
   }
