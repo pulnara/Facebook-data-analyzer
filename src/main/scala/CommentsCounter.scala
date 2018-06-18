@@ -1,7 +1,5 @@
 import java.io.FileInputStream
-
 import play.api.libs.json._
-
 import scala.collection.immutable.ListMap
 
 class CommentsCounter(val path : String) {
@@ -30,10 +28,9 @@ class CommentsCounter(val path : String) {
     val list = ListMap(groups.toSeq.sortWith(_._2 > _._2):_*).toList
 
     println("Including " + commentsInGrps + " comments in groups")
-//    println(groups)
     println()
     println("Most active on groups:")
-    for (i <- 0 to list.size-1) println(list(i)._1 + ": " + list(i)._2)
+    for (i <- list.indices) println(list(i)._1 + ": " + list(i)._2)
   }
 
   def print() : Unit = {
