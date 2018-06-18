@@ -5,7 +5,7 @@ import Console._
 object Application {
   def getPersonsMessagesPath(path : String, name : String) : String = {
     val file = new File(path + "/messages/")
-    val result = file.listFiles().filter(_.isDirectory).map(_.getPath).toList.filter(f => f.contains(name.toLowerCase))
+    val result = file.listFiles().filter(_.isDirectory).map(_.getPath.toLowerCase).toList.filter(f => f.contains(name.toLowerCase))
       if (result.nonEmpty) {
         result.head + "/message.json"
       } else {
@@ -49,9 +49,13 @@ object Application {
         println(s"${YELLOW}Comments analysis:$WHITE")
         commentsCounter.print()
 
-        val friendsNumberAnalyzer = new FriendsNumberAnalyzer(file + "/friends/friends.json")
-        println(s"\n${MAGENTA}Friendship making analysis:$WHITE")
-        friendsNumberAnalyzer.print()
+//        val friendsNumberAnalyzer = new FriendsNumberAnalyzer(file + "/friends/friends.json")
+//        println(s"\n${MAGENTA}Friendship making analysis:$WHITE")
+//        friendsNumberAnalyzer.print()
+
+        val locationParser = new LocationsParser(file + "/location_history/your_location_history.json")
+        //print(locationParser.parse())
+        locationParser.print()
 
       }
       else {

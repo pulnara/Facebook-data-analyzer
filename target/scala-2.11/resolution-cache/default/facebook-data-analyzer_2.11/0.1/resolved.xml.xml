@@ -4,7 +4,7 @@
 		module="facebook-data-analyzer_2.11"
 		revision="0.1"
 		status="integration"
-		publication="20180617233634"
+		publication="20180618140617"
 	>
 		<description>
 		Facebook-data-analyzer
@@ -33,5 +33,6 @@
 		<dependency org="org.scala-lang" name="scala-compiler" rev="2.11.7" conf="scala-tool->default,optional(default)"/>
 		<dependency org="org.scala-lang" name="scala-library" rev="2.11.7" conf="scala-tool->default,optional(default);compile->default(compile)"/>
 		<dependency org="com.typesafe.play" name="play-json_2.11" rev="2.4.2" conf="compile->default(compile)"/>
+		<dependency org="org.sameersingh.scalaplot" name="scalaplot" rev="0.0.4" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>
