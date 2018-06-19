@@ -33,7 +33,7 @@ object Application {
         println(s"\n${GREEN}For conversation with " + who + s":$WHITE")
         val messagesPath = getPersonsMessagesPath(path, who)
         val wordsInConversationParser = new WordsInConversationParser(messagesPath)
-        val topNSelector = new TopNSelector(10, wordsInConversationParser)
+        val topNSelector = new TopNSelector(8, wordsInConversationParser)
         topNSelector.print()
         topNSelector.printLongerWords()
 
