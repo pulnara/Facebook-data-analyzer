@@ -10,13 +10,6 @@ import scala.collection.immutable.ListMap
 class LocationsParser (val path: String){
   val stream = new FileInputStream(path)
 
-  def getDate(timestamp: Long) : Double = {
-    val ts = timestamp * 1000L
-    val df = new SimpleDateFormat("yyyy")
-    val date = df.format(ts)
-    date.toDouble
-  }
-
   def parse():Map[Long, (Double, Double)] = {
     var map = Map.empty[Long, (Double, Double)]
     var i = 0
@@ -43,7 +36,7 @@ class LocationsParser (val path: String){
       i=i+1
     }
 
-    return map
+    map
   }
 
   def print(): Unit ={
